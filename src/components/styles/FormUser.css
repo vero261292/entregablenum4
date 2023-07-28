@@ -55,3 +55,38 @@
     gap: 0.4em;
     margin-bottom: 0.8em;
 }
+
+
+.formuser__label{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-left: 1em;
+}
+
+.formuser__input{
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    border: 0.1em solid #aaa;
+
+}
+
+.formuser__btn{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: pink;
+    color: palevioletred;
+    outline: none;
+    border-radius: 40px;
+    border-bottom: 1em;
+}
+
+.formuser__btn:hover{
+    filter: brightness(1.2);
+    box-shadow: 0 0 20px #920186cc;
+
+
+}
+

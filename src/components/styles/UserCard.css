@@ -1,0 +1,20 @@
+
+.user-profile{
+    width: 24em;
+    height: 17em;
+    border-radius: 0.25em;
+    border: 0.06em solid #e5e;
+    background: #e5e;
+    margin: 1.25em;
+    padding: 1em;
+}
+
+.user-profile__name{
+    display: flex;
+    width: 22em;
+    height: 2em;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-size: 1.6em;
+}

@@ -2,7 +2,7 @@ import useFetch from "./hooks/useFetch";
 import "./App.css";
 import { useState, useEffect } from "react";
 import UserCard from "./components/UserCard";
-import { FormUser } from "./components/FormUser";
+import  FormUser  from "./components/FormUser";
 
 function App() {
   const [closeForm, setCloseForm] = useState(true);

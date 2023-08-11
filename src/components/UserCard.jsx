@@ -5,7 +5,7 @@ const UserCard = ({ user, deleteUserById, setUpdateInfo, handleOpenForm, setClos
 
     const handleDelete = () => {
         deleteUserById(`/users`, user.id);
-        setCloseInfo(false)
+        setCloseInfo(false);
       };
     
       const handleUpdate = () => {
